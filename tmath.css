@@ -1,0 +1,72 @@
+.tonhat{
+    background-color: rgb(224, 142, 160);
+    width: 1000px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header p{
+    margin-top:0;
+}
+header h1{
+    margin: 0;
+    font-weight:normal ;
+    font-size: 160%;
+}
+.menu-nav{
+    margin-top: 20px;
+}
+.menu-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.menu-nav li{
+    list-style: none;
+    float:left;
+    margin-right: 5px;
+}
+.menu-nav a{
+    display:block;
+    color:green;
+    text-decoration: none;
+    padding:10px 20px;
+    border: 3px soldi rgb(238, 85, 85);
+    border-bottom: none;
+}
+.menu-nav a:hover{
+    background-color: rgb(79, 250, 0);
+    border: 3px soldi rgb(17, 0, 0);
+}
+.khung{
+    margin-top: 20px;
+    width: 65%;
+    height:300px;
+    float: left;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.phanbenphai{
+    margin-top: 50px;
+    width: 25%;
+    float: left;
+    background-color: rgb(133, 169, 245);
+    padding-left: 5px;
+    margin-left: 50px;
+}
+.link-nav{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: none;
+}
+.group:before,
+.group:after{
+    content:"";
+    display: table;
+}
+.group:after{
+    clear: both;
+}
+.group{
+    zoom: 1;
+}
